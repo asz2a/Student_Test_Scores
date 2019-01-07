@@ -7,7 +7,7 @@ df = pd.read_csv("StudentsPerformance.csv", sep=',')
 
 
 # Scatter Plot
-def scatterplot():
+def scatter_plot():
     math_score = df['math score']
     reading_score = df['reading score']
 
